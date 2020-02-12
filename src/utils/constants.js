@@ -7,3 +7,7 @@ export const keypadKeys = [
   ["1", "2", "3", "+"],
   ["0", ".", "="]
 ];
+
+// Seperating these symbols so they can be coloured via css & classNames
+export const operators = ["*", "-", "+", "/", "="];
+export const specialOperators = ["c", "%", "Del"];
