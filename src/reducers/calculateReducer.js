@@ -1,4 +1,4 @@
-import * as types from "../types";
+import * as types from "../store/types";
 import calculate from "../utils/calculate";
 
 // Setting our initial states to 0

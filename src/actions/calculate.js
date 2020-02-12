@@ -1,4 +1,4 @@
-// Action creators for dispatch?
+// Action creator(s) for dispatch?
 
 export const calculate = expression => {
   return {
