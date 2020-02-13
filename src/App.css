@@ -71,6 +71,11 @@
   cursor: pointer;
 }
 
+/* On Click CSS */
+.btn:active {
+  transform: translateY(3px);
+}
+
 .btn--zero {
   flex: 2;
   border-radius: 95px/80px;
@@ -87,6 +92,24 @@
   background: #9e9e9e;
   color: black;
 }
+
+/* Unused Hover CSS */
+
+/* .btn--zero:hover {
+  background: rgb(17, 17, 17);
+} */
+
+/* .btn--orange:hover {
+ background: orange;
+} */
+
+/* .btn--grey:hover {
+  background: gray;
+}
+
+.btn:hover {
+  background: rgb(17, 17, 17);
+} */
 
 @media all and (max-width: 530px) {
   .btn {
@@ -114,7 +137,7 @@
 
 @media all and (max-width: 400px) {
   .calculator--container {
-    /* height: 70vh; */
+    height: 70vh;
     width: 315px;
   }
 }
