@@ -1,5 +1,5 @@
 import calculatorReducer from "../reducers/calculateReducer";
-import * as types from "../store/types";
+import * as types from "../actions/types";
 
 describe("Calculator Reducer", () => {
   it("should return the initial state", () => {

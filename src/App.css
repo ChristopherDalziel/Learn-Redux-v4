@@ -11,7 +11,9 @@
   display: flex;
   flex-direction: column;
   height: 95vh;
-  width: 420px;
+  /* 420px is better for 13" macbook screen */
+  /* width: 420px; */
+  width: 520px;
   background: black;
 }
 

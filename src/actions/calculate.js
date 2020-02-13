@@ -1,6 +1,6 @@
 // Action creator(s) for dispatch?
 
-import * as types from "../store/types";
+import * as types from "./types";
 
 export const calculate = key => {
   return {
@@ -9,12 +9,14 @@ export const calculate = key => {
   };
 };
 
+// Clear calculator
 export const clear = () => {
   return {
     type: types.CLEAR_EXPRESSION
   };
 };
 
+// Delete value from calculator
 export const deleteLastEntry = () => {
   return {
     type: types.DELETE_LAST_EXPRESSION_ENTRY
